@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#6200EE</color> <!-- Primary color -->
+    <color name="colorPrimaryVariant">#3700B3</color> <!-- Variant of primary color -->
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- Text color on primary background -->
+    <color name="colorSecondary">#03DAC6</color> <!-- Secondary color -->
+    <color name="colorBackground">#FFFFFF</color> <!-- Background color -->
+    <color name="colorTabText">#FFFFFF</color> <!-- Tab text color -->
+    <color name="colorTabUnselectedText">#B0BEC5</color> <!-- Unselected tab text color -->
+    <color name="colorTabIndicator">#FFFFFF</color> <!-- Tab indicator color -->
+    <color name="fragmentBackground">#FFFFFF</color>
+    <color name="hintTextColor">#B0BEC5</color> <!-- Light grey for hints -->
+    <color name="buttonBackground">#FF6F00</color> <!-- Orange for buttons -->
+    <color name="primaryTextColor">#212121</color> <!-- Dark grey for primary text -->
+
+</resources>

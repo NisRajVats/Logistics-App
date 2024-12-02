@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base Application Theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+    </style>
+
+    <!-- Tab Text Appearance -->
+    <style name="TabTextAppearance">
+        <item name="android:textSize">16sp</item> <!-- Adjust the text size -->
+
+        <item name="android:textStyle">bold</item> <!-- Apply bold to the text (optional) -->
+        <item name="android:textColor">@color/colorTabText</item> <!-- Color of selected tab text -->
+    </style>
+
+    <!-- TabLayout Style -->
+    <style name="TabLayoutStyle">
+        <item name="tabIndicatorColor">@color/colorPrimary</item> <!-- Tab indicator color -->
+        <item name="tabSelectedTextColor">@color/colorPrimary</item> <!-- Selected tab text color -->
+        <item name="tabTextAppearance">@style/TabTextAppearance</item> <!-- Tab text appearance style -->
+    </style>
+
+    <style name="TabTextAppearanceUnselected" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item> <!-- Unselected tab text size -->
+        <item name="android:textColor">@color/colorTabUnselectedText</item> <!-- Color of unselected tab text -->
+    </style>
+
+
+</resources>
